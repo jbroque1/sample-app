@@ -12,8 +12,7 @@ export default class Main extends Component {
         return(
             <BrowserRouter>
                 <Switch>
-                    <Route exact path="/" component={App} />
-                    <Route exact path="/wallet" component={WalletPage} />
+                    <Route exact path="/" component={WalletPage} />
                     <Route exact path="/bid" component={BidPage} />
                     <Route exact path="/transfer" component={TransferPage} />
                 </Switch>

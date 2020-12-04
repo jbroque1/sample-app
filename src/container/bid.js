@@ -58,7 +58,7 @@ export default class BidPage extends Component {
 			<div>
 				{/* not advisable to do this block of code*/}
 				<ul>
-				  <li><Link to="/wallet">Wallet</Link></li>
+				  <li><Link to="/">Wallet</Link></li>
 				  <li><Link to="/bid">Bid</Link></li>
 				  <li><Link to="/transfer">Transfer</Link></li>
 				</ul>
